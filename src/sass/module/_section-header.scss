@@ -30,3 +30,28 @@
 
 }
 
+
+.section-header__enTitle--white,
+.section-header__jaTitle--white {
+  @include mq('md'){
+    color: $white;
+
+  }
+}
+
+
+
+.color-green--white {
+  @include mq('md'){
+    color: #DDF0F1;
+  }  
+}
+
+.section-header__enTitle.section-header__enTitle--big{
+  font-size:   rem(80);
+  line-height: 1;
+}
+
+
+
+

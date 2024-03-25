@@ -2,7 +2,22 @@
 
 .sp-nav {
   display: none;
+  position: relative;
+  z-index: 50;
 }
+
+.sp-nav__logo {
+  position: absolute;
+  width:  rem(102);
+  top:  rem(21);
+  left:  rem(15);
+}
+
+.sp-nav__logoLink {
+
+}
+
+
 
 .sp-nav__group{
   display: flex;
@@ -10,8 +25,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-
 }
+
 
 .sp-nav.is-active{
   display: block;
@@ -24,6 +39,7 @@
   background-color: #408F95;
   padding-right:  rem(15);
   padding-left:  rem(37);
+  z-index: 50;
 }
 
 .sp-nav__items {
@@ -68,11 +84,18 @@ width: 100%;
 
 .sp-nav__icon::before{
   position: absolute;
+  top: 0;
+  left:  rem(-22);
   content:"";
   display: inline-block;
-  background-image: url(../src/images/common/hitode.png);
+  background-image: url(../images/common/hitode.png);
+  width:  rem(18);
+  height:  rem(18);
+  background-size: contain;
+  vertical-align: middle;
 }
 
-.sp-nav__icon:not(:first-child){
+.sp-nav__icon.sp-nav__icon--mt0{
+  margin-top: 0;
 }
 

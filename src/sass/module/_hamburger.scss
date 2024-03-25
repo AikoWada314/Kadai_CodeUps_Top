@@ -10,36 +10,35 @@
 .hamburger span{
   position: absolute;
   width: inherit;
-  height: 1px;
+  height:  rem(1);
   background-color: $white;
   transition: .3s;
 }
 
 .hamburger span:nth-child(1){
-  top: 10%;
+  top:  rem(4);
 }
 
 .hamburger span:nth-child(2){
- top: 45%;
+  top:  rem(11.4);
  opacity: 1;
 }
 
 .hamburger span:nth-child(3){
-top: 80%;
+  bottom:  rem(4);
 }
 
 .hamburger.is-active span:nth-child(1){
-  top: 40%;
-  transform: rotate(43deg);
+  -webkit-transform: translateY( rem(10)) rotate(-315deg);
+  transform: translateY( rem(10)) rotate(-322deg);
 }
 
 .hamburger.is-active span:nth-child(2){
- top: 45%;
  opacity: 0;
 }
 
 .hamburger.is-active span:nth-child(3){
-top: 40%;
-transform: rotate(-45deg);
+-webkit-transform: translateY( rem(-10)) rotate(315deg);
+transform: translateY( rem(-6)) rotate(322deg);
 
 }
