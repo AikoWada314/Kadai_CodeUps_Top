@@ -18,7 +18,7 @@ padding:  rem(80) 0;
     display: block;
     background: url(../images/common/top-price-mask.png) no-repeat top / contain;
     bottom:  rem(60);
-    left: calc(50% - min(48.4vw, 37.875rem));
+    left: calc(50% - min(48.4vw,  rem(620)));
     width:  rem(437);
     height:  rem(201);
     z-index: 4;

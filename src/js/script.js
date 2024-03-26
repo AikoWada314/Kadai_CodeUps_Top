@@ -72,7 +72,7 @@ const swiper2 = new Swiper(".swiper-container2", {
       spaceBetween: 40,
     },
   },
-  centeredSlides: true, 
+  centeredSlides: false, 
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",

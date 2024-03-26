@@ -6,7 +6,7 @@
   @include mq('md'){
     margin-top:  rem(140);
     position: relative;
-    margin-bottom:  rem(210);
+    margin-bottom:  rem(242);
   }
 }
 
@@ -79,11 +79,10 @@
 .top-about__text-wrapper{
   margin-top:  rem(100);
   @include mq('md'){
-    width:  71.186%;
+    width:  74.336%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top:  rem(204);
+    left:  rem(220);
     display: flex;
     gap:  rem(40);
     z-index: 3;
@@ -116,6 +115,7 @@
   font-size:   rem(16);
   line-height: calc(24 /16 );
   @include mq('md'){
+    margin-top: 0;
     color: $white;
       }
 }
@@ -134,12 +134,12 @@
 
   @include mq('md'){
     background: url(../images/common/top-about-mask.png) no-repeat top / contain;
-    bottom: -8.625rem;
+    bottom:  rem(-169);
     content: "";
     display: block;
     height: 11.3125rem;
     position: absolute;
-    right: calc(50% - min(48.4vw, 39.875rem));
+    right: calc(50% - min(48.4vw,  rem(634)));
     width: 12.125rem;
     z-index: 4;
   }

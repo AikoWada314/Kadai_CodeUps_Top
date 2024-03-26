@@ -22,8 +22,8 @@
     content: "";
     display: block;
     background: url(../images/common/top-voice-mask1.png) no-repeat top / contain;
-    top:  rem(-90);
-    left: calc(50% - min(48.4vw, 39.875rem));
+    top:  rem(-119);
+    left: calc(50% - min(48.4vw,  rem(620)));
     width:  rem(301);
     height:  rem(138);
     z-index: 4;
@@ -38,10 +38,10 @@
     content: "";
     display: block;
     background: url(../images/common/top-voice-mask2.png) no-repeat top / contain;
-    bottom:  rem(-60);
-    right: calc(50% - min(48.4vw, 39.875rem));
-    width:  rem(301);
-    height:  rem(138);
+    bottom:  rem(-65) ;
+    right: calc(50% - min(48.4vw,  rem(540)));
+    width:  rem(71);
+    height:  rem(162);
     z-index: 4;
   }  
 }
